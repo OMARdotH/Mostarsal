@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="تصفح مكتبة مِداد العربية.">
+  <title>المكتبة — مِداد</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="مِداد — الصفحة الرئيسية">
+        <span class="brand-mark" aria-hidden="true">م</span>
+        <span><strong>مِداد</strong><small>مكتبة عربية رقمية</small></span>
+      </a>
+      <nav class="main-nav" aria-label="التنقل الرئيسي">
+        <a href="index.html">الرئيسية</a>
+        <a class="active" href="library.html">المكتبة</a>
+        <a href="about.html">عن مِداد</a>
+      </nav>
+    </header>
+
+    <main class="page">
+      <section class="page-heading">
+        <p class="eyebrow">المكتبة</p>
+        <h1>كل الكتب، في مكان واحد.</h1>
+        <p>ابحث وتصفح مجموعتك بسهولة.</p>
+      </section>
+
+      <section class="library-toolbar" aria-label="أدوات البحث">
+        <label class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <input id="searchInput" type="search" placeholder="ابحث عن عنوان أو مؤلف..." autocomplete="off">
+        </label>
+        <select id="categoryFilter" aria-label="تصفية حسب التصنيف">
+          <option value="all">كل التصنيفات</option>
+        </select>
+      </section>
+
+      <section class="library-grid" id="libraryGrid" aria-live="polite"></section>
+      <p class="empty-state" id="emptyState" hidden>لم نجد كتابًا يطابق بحثك.</p>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> مِداد</span>
+      <span>صُمّم للقراءة العربية.</span>
+    </footer>
+  </div>
+
+  <script src="js/books.js"></script>
+  <script src="js/library.js"></script>
+</body>
+</html>

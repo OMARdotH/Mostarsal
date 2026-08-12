@@ -1,0 +1,7 @@
+const books=[
+{id:"1",title:"رسائل من بعيد",author:"ليان مراد",cat:"أدب",year:"٢٠٢٦",pages:"١٨٤",cover:"assets/covers/1.svg",desc:"مجموعة أدبية عن المسافة والذاكرة والأشياء الصغيرة التي تمنح الأيام معناها.",file:"books/1.pdf"},
+{id:"2",title:"أصوات المدينة",author:"سليم ناصر",cat:"فكر",year:"٢٠٢٦",pages:"٢٣٦",cover:"assets/covers/2.svg",desc:"نصوص وتأملات في المدينة الحديثة، الإنسان، والبحث عن مكان هادئ وسط الضجيج.",file:"books/2.pdf"},
+{id:"3",title:"ظلّ النخلة",author:"نور حداد",cat:"رواية",year:"٢٠٢٦",pages:"٣١٢",cover:"assets/covers/3.svg",desc:"رواية عن ذاكرة عائلة عبر أجيال، بين المكان وما يبقى منه في الذاكرة.",file:"books/3.pdf"},
+{id:"4",title:"على مهل",author:"ياسر قاسم",cat:"مقالات",year:"٢٠٢٦",pages:"١٥٨",cover:"assets/covers/4.svg",desc:"مقالات قصيرة عن القراءة والعمل والوقت، مكتوبة بنبرة هادئة وتأملية.",file:"books/4.pdf"},
+{id:"5",title:"خرائط صغيرة",author:"مريم عوض",cat:"رحلات",year:"٢٠٢٦",pages:"٢٠٥",cover:"assets/covers/5.svg",desc:"رحلات قصيرة إلى أماكن متخيلة وحقيقية، حيث يصبح الطريق جزءًا من الحكاية.",file:"books/5.pdf"},
+{id:"6",title:"النافذة الأخيرة",author:"آدم كمال",cat:"قصص",year:"٢٠٢٦",pages:"١٢٦",cover:"assets/covers/6.svg",desc:"قصص قصيرة عن اللحظات التي ننتبه إليها متأخرين، وعن الأشخاص الذين يمرون بنا.",file:"books/6.pdf"}];
